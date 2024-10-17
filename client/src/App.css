@@ -1,0 +1,120 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../public/bg4.jpg');
+  background-size: cover;
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 100%;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+#logout:hover {
+  color: yellow;
+  cursor: pointer;
+}
+
+
+#contact {
+  margin: 20px;
+
+}
+
+#contact-info {
+ width: 50%;
+  padding: 20px;
+  color: rgb(4, 160, 147);
+  background-color: black;
+  opacity: 0.6;
+
+  border-radius: 10px;
+}
+
+#protected-container {
+  display: flex;
+  flex-wrap: wrap; /* جعل المحتويات تلتف في حالة المساحة الصغيرة */
+  justify-content: space-around;
+ 
+}
+
+#lists {
+  width: 45%;
+  background-color: aqua;
+  opacity: 0.8;
+  padding: 20px;
+  margin: 20px;
+  margin-top: 5%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+#chat-box {
+  width: 45%;
+  background-color: cadetblue;
+  opacity: 0.9;
+  padding: 20px;
+  margin: 20px;
+  margin-top: 5%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+button {
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(23, 23, 36);
+  color: yellow;
+}
+
+#home {
+  margin: 20px;
+  color: rgb(4, 160, 147);
+}
+
+
+#register {
+  max-width: 50%;
+  padding: 10px;
+  margin: 20px;
+  color: rgb(4, 160, 147);
+}
+
+#admin-controls {
+  margin-top: 5%;
+  padding: 20px;
+  margin: 20px;
+  color: rgb(4, 160, 147);
+  background-color: black;
+  opacity: 0.6;
+  width:50%;
+  border-radius: 10px;
+}
+
+#admin-userlist {
+  overflow-y: scroll;
+}
+
